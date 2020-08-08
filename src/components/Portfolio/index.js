@@ -77,7 +77,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[0].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[0].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[0].name }</h3>
                                 <a href={ projects[0].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[0].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/money.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -87,7 +87,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[1].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[1].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[1].name }</h3>
                                 <a href={ projects[1].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[1].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/mental-state.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -97,7 +97,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[2].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[2].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[2].name }</h3>
                                 <a href={ projects[2].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[2].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/coconut-cocktail.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -112,7 +112,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[3].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[3].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[3].name }</h3>
                                 <a href={ projects[3].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[3].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/book.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -122,7 +122,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[4].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[4].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[4].name }</h3>
                                 <a href={ projects[4].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[4].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/note.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -132,7 +132,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[5].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[5].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[5].name }</h3>
                                 <a href={ projects[5].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[5].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/forgot-password.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -147,7 +147,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[6].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[6].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[6].name }</h3>
                                 <a href={ projects[6].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[6].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/running.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -157,7 +157,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[7].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[7].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[7].name }</h3>
                                 <a href={ projects[7].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[7].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/bluestacks.png" alt="Deployed" className="icon"/></a>
                             </div>
@@ -167,7 +167,7 @@ function Portfolio() {
                         <div className="card" style={{ width: '18rem' }}>
                             <img className="card-img-top" src={projects[8].img} alt="Card cap" />
                             <div className="card-body">
-                                <h3 className="card-title">{ projects[8].name }</h3>
+                                <h3 className="card-title portfolio">{ projects[8].name }</h3>
                                 <a href={ projects[8].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[8].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/partly-cloudy-day.png" alt="Deployed" className="icon"/></a>
                             </div>

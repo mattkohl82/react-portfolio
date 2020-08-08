@@ -38,7 +38,7 @@ function Contact() {
     return (
         <section className='container d-flex flex-column justify-content-center align-items-center'>
             <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/125/contact-card.png" alt='contact'/>
-            <h1>Contact Me</h1>
+            <h1 className='underline'>Contact Me</h1>
             
             <form  id="contact-form" onSubmit={handleSubmit}>
                 <div className=' d-flex flex-column justify-content-center align-items-center'>
@@ -46,7 +46,7 @@ function Contact() {
                     <input type="text" style={{ width:'80%', textAlign: 'center'}} name="name" defaultValue={name} onBlur={handleChange} placeholder='Name Here'/>
                 </div>
                 <div className=' d-flex flex-column justify-content-center align-items-center'>
-                    <img style={{ marginTop:'2px' }} src="https://img.icons8.com/nolan/50/add-open-envelope.png" alt='email'/>
+                    <img style={{ marginTop:'2px', marginBottom:'3px' }} src="https://img.icons8.com/nolan/50/add-open-envelope.png" alt='email'/>
                     <input type="email" style={{ width:'80%', textAlign: 'center'}} name="email" defaultValue={email} onBlur={handleChange} placeholder='Email Here'/>
                 </div>
                 <div className=' d-flex flex-column justify-content-center align-items-center'>
@@ -58,7 +58,7 @@ function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button className='btn' style={{ marginTop:'3px', borderStyle: 'outset'}} type="submit"><img style={{ borderStyle: 'outset' }} src="https://img.icons8.com/nolan/80/nui2.png" alt='submit'/></button>
+                <button className='btn btncolor' style={{ marginTop:'3px', borderStyle: 'outset'}} type="submit"><img style={{ borderStyle: 'outset' }} src="https://img.icons8.com/nolan/80/nui2.png" alt='submit'/></button>
             </form>
         </section>
     );

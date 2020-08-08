@@ -13,14 +13,10 @@ import Header from './components/Header/index'
 
 function App() {
   return (
-    <div className='App'> 
+    <div className='App' style= {{ position: 'relative', minHeight: '100vh' }}> 
       <Header />
-      <div>  
-        <Main />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Main />
+      <Footer />
     </div>
     
   );

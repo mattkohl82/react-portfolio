@@ -37,7 +37,7 @@ function Contact() {
     
     return (
         <section className='container d-flex flex-column justify-content-center align-items-center'>
-            <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/100/contact-card.png" alt='contact'/>
+            <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/125/contact-card.png" alt='contact'/>
             <h1>Contact Me</h1>
             
             <form  id="contact-form" onSubmit={handleSubmit}>

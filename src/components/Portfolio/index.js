@@ -70,6 +70,8 @@ function Portfolio() {
 
         <div>
             <div className="container" style={{ marginTop: '10px' }}>
+            <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/125/contract-job.png" alt='portfolio'/>
+            <h1>Portfolio</h1>
                 <div className="row">
                     <div className="col-sm">
                         <div className="card" style={{ width: '18rem' }}>

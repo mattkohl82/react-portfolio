@@ -13,7 +13,7 @@ function Portfolio() {
             name: 'Deep Thoughts',
             img: 'https://github.com/mattkohl82/react-portfolio/blob/master/src/img/deepthoughts.jpg?raw=true',
             github: 'https://github.com/mattkohl82/deep-thoughts',
-            deployed: ''
+            deployed: 'https://deep-thoughts-85.herokuapp.com/'
         },
         {
             name: 'Drink and Think',
@@ -69,7 +69,7 @@ function Portfolio() {
     return (
 
         <div>
-            <div className="container" style={{ marginTop: '10px'}}>
+            <div className="container" style={{ marginTop: '10px' }}>
                 <div className="row">
                     <div className="col-sm">
                         <div className="card" style={{ width: '18rem' }}>

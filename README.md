@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <img src="/src/assets/main.jpg" alt="mainpage"/>
+    <img src="https://github.com/mattkohl82/react-portfolio/blob/master/src/assets/Main.jpg?raw=true" alt="mainpage"/>
 </p>
 
 

@@ -39,7 +39,7 @@ Page will open in browser automatically or go to localhost:3000/
 [React Portfolio](https://github.com/mattkohl82/react-portfolio)    
 
 ### GH pages deployed site 
-[Budget Tracker](https://mattkohl82.github.io/react-portfolio/) 
+[React Portfolio](https://mattkohl82.github.io/react-portfolio/) 
 
 
 ## Questions

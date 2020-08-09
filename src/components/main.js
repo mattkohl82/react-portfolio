@@ -10,8 +10,9 @@ import Portfolio from './Portfolio/index'
 
 const Main = () => (
     <Switch>
-        <Route exact path='/' component={About} />
+        <Route exact path="/react-portfolio" render={() => (<Redirect to="/about"/>)}/>
         <Route path='/contact' component={Contact} />
+        <Route path="/about" component={About}/>
         <Route path='/resume' component={Resume} />
         <Route path='/portfolio' component={Portfolio} />
     </Switch>

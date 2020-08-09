@@ -54,8 +54,8 @@ function Portfolio() {
         {
             name: 'Weather Tracker',
             img: 'https://github.com/mattkohl82/react-portfolio/blob/master/src/img/weather.jpg?raw=true',
-            github: 'https://github.com/mattkohl82/Tech-blog',
-            deployed: 'https://github.com/mattkohl82/weather-dashboard'
+            github: 'https://github.com/mattkohl82/weather-dashboard',
+            deployed: 'https://mattkohl82.github.io/weather-dashboard/'
         },
         {
             name: 'Work Scheduler',
@@ -170,6 +170,20 @@ function Portfolio() {
                                 <h3 className="card-title portfolio">{ projects[8].name }</h3>
                                 <a href={ projects[8].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
                                 <a href={ projects[8].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/partly-cloudy-day.png" alt="Deployed" className="icon"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container" style={{ marginTop: '10px'}}>
+                <div className="row">
+                    <div className="col-sm">
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
+                            <img className="card-img-top" src={projects[9].img} alt="Card cap" />
+                            <div className="card-body">
+                                <h3 className="card-title portfolio">{ projects[9].name }</h3>
+                                <a href={ projects[9].github } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/60/github.png" alt="Github" className="icon"/></a>
+                                <a href={ projects[9].deployed } target='_blank' rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/work.png" alt="Deployed" className="icon"/></a>
                             </div>
                         </div>
                     </div>

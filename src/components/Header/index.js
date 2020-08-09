@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <Navbar className='header'>
-            <Link to="/">
+            <Link to="/react-portfolio">
                 <Navbar.Brand>
                     <p className='navcolor'>
                         <img src="https://img.icons8.com/nolan/70/cat.png" alt="Cat"/> 

@@ -60,4 +60,5 @@ p {
 .navcolor:active {
   background-color:var(--white) !important;
   color: var(--coral);
+  border-radius: 50px;
 }

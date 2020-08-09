@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <Navbar className='header'>
-            <Link to="/about">
+            <Link to="/">
                 <Navbar.Brand>
                     <p className='navcolor'>
                         <img src="https://img.icons8.com/nolan/70/cat.png" alt="Cat"/> 
@@ -23,19 +23,19 @@ function Header() {
                         About
                     </p>
                 </Link>
-                <Link className='nav-link' to="portfolio">
+                <Link className='nav-link' to="/portfolio">
                     <p className='navcolor'>
                         <img src="https://img.icons8.com/nolan/50/contract-job.png" alt='portfolio'/>
                         Portfolio
                     </p>
                 </Link>
-                <Link className='nav-link' to="contact">
+                <Link className='nav-link' to="/contact">
                     <p className='navcolor'>
                         <img src="https://img.icons8.com/nolan/50/contact-card.png" alt="contact"/>
                         Contact
                     </p>
                 </Link>
-                <Link className='nav-link' to="resume">
+                <Link className='nav-link' to="/resume">
                     <p className='navcolor'>
                         <img src="https://img.icons8.com/nolan/50/resume.png" alt="resume"/>
                         Resume

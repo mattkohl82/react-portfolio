@@ -11,10 +11,10 @@ import Portfolio from './Portfolio/index'
 const Main = () => (
     <Switch>
         <Route exact path="/react-portfolio/" render={() => (<Redirect to="/about"/>)}/>
-        <Route path='/react-portfolio/contact' component={Contact} />
-        <Route path="/react-portfolio/about" component={About}/>
-        <Route path='/react-portfolio/resume' component={Resume} />
-        <Route path='/react-portfolio/portfolio' component={Portfolio} />
+        <Route path='/contact' component={Contact} />
+        <Route path="/about" component={About}/>
+        <Route path='/resume' component={Resume} />
+        <Route path='/portfolio' component={Portfolio} />
     </Switch>
 )
 

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <img src="./src/assets/main.jpg" alt="mainpage"/>
+    <img src="/src/assets/main.jpg" alt="mainpage"/>
 </p>
 
 

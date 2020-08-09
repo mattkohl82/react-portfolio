@@ -7,20 +7,20 @@ function Resume() {
             <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/125/resume.png" alt="resume"/>
             <h1>Resume</h1>
             <div className='justify-content-center'>
-                <div>
-                    <h2 className='portfolio'>Front End</h2>
+                <div style={{ marginTop: '20px' }}>
+                    <h3 className='portfolio'>Front End</h3>
                     <p>
                         HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, IndexedDB
                     </p>
                 </div>
-                <div>
-                    <h2 className='portfolio'>Back End</h2>
+                <div style={{ marginTop: '20px' }}>
+                    <h3 className='portfolio'>Back End</h3>
                     <p>
                         Node.js, Express.js, SQL, Sequelize, NoSQL, API's,
                     </p>
                 </div>
-                <div>
-                    <h2 className='portfolio'>Downdown Resume</h2>
+                <div style={{ marginTop: '20px' }}>
+                    <h3 className='portfolio'>Download Resume</h3>
                     <a href='https://github.com/mattkohl82/react-portfolio/raw/master/src/assets/resume.pdf'className='link'>
                         <img src="https://img.icons8.com/nolan/64/linkedin.png" alt='linkedin'/>
                     </a>

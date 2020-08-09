@@ -70,11 +70,11 @@ function Portfolio() {
 
         <div>
             <div className="container" style={{ marginTop: '10px' }}>
-            <img style={{ marginTop: '3vh'}} src="https://img.icons8.com/nolan/125/contract-job.png" alt='portfolio'/>
+            <img style={{ marginTop: '3vh' }} src="https://img.icons8.com/nolan/125/contract-job.png" alt='portfolio'/>
             <h1>Portfolio</h1>
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[0].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[0].name }</h3>
@@ -84,7 +84,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[1].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[1].name }</h3>
@@ -94,7 +94,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[2].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[2].name }</h3>
@@ -109,7 +109,7 @@ function Portfolio() {
             <div className="container" style={{ marginTop: '10px'}}>
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[3].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[3].name }</h3>
@@ -119,7 +119,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[4].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[4].name }</h3>
@@ -129,7 +129,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[5].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[5].name }</h3>
@@ -144,7 +144,7 @@ function Portfolio() {
             <div className="container" style={{ marginTop: '10px'}}>
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[6].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[6].name }</h3>
@@ -154,7 +154,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[7].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[7].name }</h3>
@@ -164,7 +164,7 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <div className="card" style={{ width: '18rem' }}>
+                        <div className="card" style={{ width: '18rem', borderColor: 'var(--paradise-pink)', borderStyle: 'solid', borderWidth: '2px' }}>
                             <img className="card-img-top" src={projects[8].img} alt="Card cap" />
                             <div className="card-body">
                                 <h3 className="card-title portfolio">{ projects[8].name }</h3>

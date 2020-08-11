@@ -62,8 +62,9 @@ p {
   border-radius: 50px;
 }
 
- .nav-link.active, .navcolor.active {
-  color: var(--coral) !important;
+.nav-link.active {
+   color: var(--paradise-pink);
+
   background-color: var(--white) !important;
-  border-radius: 1000px !important;
+  border-radius: 100px !important;
 }

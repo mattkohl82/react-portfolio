@@ -56,9 +56,14 @@ p {
   color: var(--dark-turquoise);
 }
 
-.navcolor:hover,
-.navcolor:active {
-  background-color:var(--white) !important;
+.navcolor:hover {
+  background-color:var(--white);
   color: var(--coral);
   border-radius: 50px;
+}
+
+ .nav-link.active, .navcolor.active {
+  color: var(--coral) !important;
+  background-color: var(--white) !important;
+  border-radius: 1000px !important;
 }

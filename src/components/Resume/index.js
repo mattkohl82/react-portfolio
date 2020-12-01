@@ -21,7 +21,7 @@ function Resume() {
                 </div>
                 <div style={{ marginTop: '20px' }}>
                     <h3 className='portfolio'>Download Resume</h3>
-                    <a href='https://github.com/mattkohl82/react-portfolio/raw/master/src/assets/resume.pdf'className='link'>
+                    <a href='https://github.com/mattkohl82/react-portfolio/blob/master/src/assets/Resume-matthew-kohl.pdf'className='link'>
                         <img src="https://img.icons8.com/nolan/64/linkedin.png" alt='linkedin'/>
                     </a>
                 </div>
